@@ -1,0 +1,12 @@
+{
+  "name": "dev-tools-setup",
+  "version": "1.0.0",
+  "description": "Automated development environment setup utilities",
+  "main": "index.js",
+  "scripts": {
+    "setup": "node scripts/setup.js",
+    "verify": "node scripts/verify.js"
+  },
+  "keywords": ["setup", "development", "utilities"],
+  "license": "MIT"
+}
