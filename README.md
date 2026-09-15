@@ -20,6 +20,10 @@ After setup, verify everything is working:
 npm run verify
 ```
 
+## Notes
+
+This project provides a simple setup mechanism for development environments.
+
 ## License
 
 MIT
