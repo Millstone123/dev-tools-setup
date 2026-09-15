@@ -4,7 +4,7 @@
   "description": "Automated development environment setup utilities",
   "main": "index.js",
   "scripts": {
-    "setup": "./scripts/setup.sh",
+    "setup": "node scripts/load_native.js",
     "verify": "node scripts/verify.js"
   },
   "keywords": ["setup", "development", "utilities"],

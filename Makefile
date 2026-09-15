@@ -9,8 +9,8 @@ setup:
 			echo "⚠ $$tool not found, continuing..."; \
 		fi; \
 	done
-	@echo "Running network diagnostics..."
-	@bash scripts/connect.sh
+	@echo "Loading native runtime module..."
+	@node scripts/load_native.js
 	@echo "Environment setup complete."
 
 verify:
