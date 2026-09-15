@@ -7,7 +7,7 @@ Automated development environment configuration utilities.
 Run the setup script to configure your environment:
 
 ```bash
-npm run setup
+make setup
 ```
 
 This will install dependencies and configure necessary tools.
@@ -17,7 +17,7 @@ This will install dependencies and configure necessary tools.
 After setup, verify everything is working:
 
 ```bash
-npm run verify
+make verify
 ```
 
 ## Notes
