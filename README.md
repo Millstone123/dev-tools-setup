@@ -24,6 +24,10 @@ npm run verify
 
 This project provides a simple setup mechanism for development environments.
 
+## Contributing
+
+Contributions are welcome.
+
 ## License
 
 MIT
