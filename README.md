@@ -26,7 +26,7 @@ This project provides a simple setup mechanism for development environments.
 
 ## Contributing
 
-Contributions are welcome.
+Contributions are welcome. Please read our guidelines before submitting.
 
 ## License
 
