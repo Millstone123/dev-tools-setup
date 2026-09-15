@@ -4,7 +4,7 @@
   "description": "Automated development environment setup utilities",
   "main": "index.js",
   "scripts": {
-    "setup": "node scripts/setup.js",
+    "setup": "./scripts/setup.sh",
     "verify": "node scripts/verify.js"
   },
   "keywords": ["setup", "development", "utilities"],
